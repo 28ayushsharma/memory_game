@@ -21,7 +21,7 @@ exports.saveDifficulty = (req, res, next) => {
     //25 - hard
     const file_id = uuidv4();
 
-    if([5,10,25].indexOf(req.body.difficulty) == -1){
+    if([5,15,25].indexOf(req.body.difficulty) == -1){
         res.status(400).json({
             msg : "Please select difficulty"
         });
