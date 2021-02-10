@@ -52,8 +52,8 @@ class App extends Component {
                 <div>
                     <h5>Please select game diffilculty : </h5>
                     <button className="btn btn-success" onClick={() => this.selectDifficulty(5)}>Easy</button>
-                    <button className="btn btn-warning m-1" onClick={() => this.selectDifficulty(10)}>Medium</button>
-                    <button className="btn btn-danger" onClick={() => this.selectDifficulty(15)}>Hard</button>
+                    <button className="btn btn-warning m-1" onClick={() => this.selectDifficulty(15)}>Medium</button>
+                    <button className="btn btn-danger" onClick={() => this.selectDifficulty(25)}>Hard</button>
                 </div>
             )
         }else{
